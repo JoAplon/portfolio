@@ -1,6 +1,6 @@
 :root{
     --primary: rgb(195, 195, 195);
-    --second:
+    --second: rgba(82, 156, 110, 0.273);
     --accent:
 }
 
@@ -51,34 +51,47 @@ a{
 
 .third-section{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    padding: 20px;
-
+    border: 3px solid black;
+    min-height: 90vh;
+    width: 80%;
 }
 
-#big-box{
-    position: relative;
-    padding: 40px;
-}
 
 .box-text-1{
-    position: absolute;
     bottom: 20px;
     right: 20px;
     background-color: white;
     padding: 20px;
 }
 
-.container{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
 
 .box{
-    width: 300px;
-    background-color: var(--primary);
-    flex: wrap;
-    justify-content: space-between;
+    width: 400px;
+    height: 200px;
+    text-align: end;
+    margin: 10px;
+}
+
+#box-1{
+    background-color: blueviolet;
+    width: 100%;
+    height: 80vh;
+}
+
+#box-2{
+    background-color: rgb(43, 153, 226);
+}
+
+#box-3{
+    background-color: rgb(43, 226, 128);
+}
+
+#box-4{
+    background-color: rgb(208, 226, 43);
+}
+
+#box-5{
+    background-color: rgb(226, 128, 43);
 }
